@@ -1,0 +1,4 @@
+Contact: mailto:malakgrami@gmail.com
+Expires: 2026-07-03T00:00:00.000Z
+Preferred-Languages: en, fr, ar
+Canonical: https://malakgrami.tech/.well-known/security.txt

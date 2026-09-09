@@ -1,0 +1,65 @@
+{
+    "degrees": [
+      {
+        "institution": "Polytechnique Sousse",
+        "degree": "Software Engineering Degree",
+        "period": "2022 - 2025",
+        "image": "/images/polytechnique.jpg",
+        "website": "https://www.polytecsousse.tn/",
+        "description": "Graduated with a software engineering degree focused on software design, distributed systems, web development, and applied engineering practices.",
+        "highlights": [
+          "⚡ Built strong foundations in software engineering, algorithms, and system design.",
+          "⚡ Worked on full-stack and academic projects covering web applications, mobile solutions, and intelligent systems.",
+          "⚡ Developed practical experience in Java, JavaScript, databases, and teamwork-based software delivery."
+        ]
+      },
+      {
+        "institution": "Polytechnique Sousse",
+        "degree": "Integrated Preparatory Cycle",
+        "period": "2020 - 2022",
+        "image": "/images/polytechnique.jpg",
+        "website": "https://www.polytecsousse.tn/",
+        "description": "Completed the intensive preparatory cycle developing the mathematical, scientific, and analytical foundations required for engineering studies.",
+        "highlights": [
+          "⚡ Strengthened technical and scientific competencies in mathematics, physics, and problem-solving.",
+          "⚡ Built the academic base needed for higher education in engineering and computer science.",
+          "⚡ Prepared for advanced studies in software engineering and applied research."
+        ]
+      },
+      {
+        "institution": "Hammam Sousse 2 High School",
+        "degree": "Baccalaureate, Experimental Sciences",
+        "period": "2020",
+        "image": "/images/highschool.jpg",
+        "website": "",
+        "description": "Completed secondary studies in the experimental sciences track with a solid scientific base in mathematics and physics.",
+        "highlights": [
+          "⚡ Developed a strong scientific foundation in mathematics, physics, and analytical reasoning.",
+          "⚡ Prepared for engineering studies in technical and scientific fields.",
+          "⚡ Built the groundwork for future academic and professional development."
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "IT Specialist – Databases",
+        "issuer": "Certiport / Microsoft",
+        "description": "Certified in database fundamentals and data management practices."
+      },
+      {
+        "name": "CCNA1: Introduction to Networks",
+        "issuer": "Cisco",
+        "description": "Foundational networking concepts and introductory network infrastructure knowledge."
+      },
+      {
+        "name": "CCNA2: Switching, Routing, and Wireless Essentials",
+        "issuer": "Cisco",
+        "description": "Practical understanding of switching, routing, and wireless networking essentials."
+      },
+      {
+        "name": "Cybersecurity Essentials",
+        "issuer": "Cisco",
+        "description": "Core understanding of cybersecurity principles, threats, and defense techniques."
+      }
+    ]
+  }

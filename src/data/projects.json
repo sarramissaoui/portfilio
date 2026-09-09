@@ -1,0 +1,98 @@
+{
+  "workProjects": [
+    {
+      "title": "projectmicroservices",
+      "company": "GitHub",
+      "description": "Microservices-based application built to demonstrate modular backend architecture and service interoperability.",
+      "period": "Repository",
+      "location": "",
+      "technologies": ["JavaScript", "Microservices", "React"],
+      "link": "https://github.com/sarramissaoui/projectmicroservices",
+      "linkType": "external"
+    },
+    {
+      "title": "parkingdevops",
+      "company": "GitHub",
+      "description": "Parking management project focused on DevOps practices, deployment automation, and infrastructure monitoring.",
+      "period": "Repository",
+      "location": "",
+      "technologies": ["JavaScript", "DevOps", "CI/CD"],
+      "link": "https://github.com/sarramissaoui/parkingdevops",
+      "linkType": "external"
+    },
+    {
+      "title": "parking-mern",
+      "company": "GitHub",
+      "description": "Full-stack parking management application developed with the MERN stack for booking, tracking, and operational management.",
+      "period": "Repository",
+      "location": "",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "link": "https://github.com/sarramissaoui/parking-mern",
+      "linkType": "external"
+    },
+    {
+      "title": "gestion-des-departements",
+      "company": "GitHub",
+      "description": "Department management system designed to streamline administrative operations and organizational data handling.",
+      "period": "Repository",
+      "location": "",
+      "technologies": ["PHP", "MySQL", "Web Application"],
+      "link": "https://github.com/sarramissaoui/gestion-des-departements",
+      "linkType": "external"
+    },
+    {
+      "title": "portfolio",
+      "company": "GitHub",
+      "description": "Personal portfolio website showcasing projects, skills, and professional identity in a clean and responsive format.",
+      "period": "Repository",
+      "location": "",
+      "technologies": ["JavaScript", "React", "Portfolio"],
+      "link": "https://github.com/sarramissaoui/portfolio",
+      "linkType": "external"
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "projectmicroservices",
+      "description": "Microservices-based application built to demonstrate modular backend architecture and service interoperability.",
+      "technologies": ["JavaScript", "Microservices", "React"],
+      "link": "https://github.com/sarramissaoui/projectmicroservices",
+      "linkType": "external"
+    },
+    {
+      "title": "parkingdevops",
+      "description": "Parking management project focused on DevOps practices, deployment automation, and infrastructure monitoring.",
+      "technologies": ["JavaScript", "DevOps", "CI/CD"],
+      "link": "https://github.com/sarramissaoui/parkingdevops",
+      "linkType": "external"
+    },
+    {
+      "title": "parking-mern",
+      "description": "Full-stack parking management application developed with the MERN stack for booking, tracking, and operational management.",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "link": "https://github.com/sarramissaoui/parking-mern",
+      "linkType": "external"
+    },
+    {
+      "title": "gestion-des-departements",
+      "description": "Department management system designed to streamline administrative operations and organizational data handling.",
+      "technologies": ["PHP", "MySQL", "Web Application"],
+      "link": "https://github.com/sarramissaoui/gestion-des-departements",
+      "linkType": "external"
+    },
+    {
+      "title": "portfolio",
+      "description": "Personal portfolio website showcasing projects, skills, and professional identity in a clean and responsive format.",
+      "technologies": ["JavaScript", "React", "Portfolio"],
+      "link": "https://github.com/sarramissaoui/portfolio",
+      "linkType": "external"
+    },
+    {
+      "title": "nextjsprojet",
+      "description": "Next.js-based project for modern interface development and scalable web application creation.",
+      "technologies": ["Next.js", "JavaScript", "Frontend"],
+      "link": "https://github.com/sarramissaoui/nextjsprojet",
+      "linkType": "external"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "technicalSkills": {
+    "programmingLanguages": [
+      "Java",
+      "Python",
+      "PHP",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "frameworks": [
+      "React",
+      "NestJS",
+      "Python",
+      "FastAPI",
+      "Spring Boot",
+      "Flutter",
+      "Bootstrap"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "SQL Server"
+    ]
+  },
+  "toolsAndTechnologies": {
+    "developmentTools": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Docker",
+      "JWT",
+      "Kubernetes",
+      "Jenkins",
+      "Prometheus",
+      "Grafana"
+    ],
+    "architectureAndProtocols": [
+      "RESTful APIs",
+      "Microservices",
+      "WebSocket",
+      "Machine Learning Integration"
+    ],
+    "testingAndAnalytics": [
+      "Jest",
+      "Unit Testing",
+      "Power BI",
+      "Business Intelligence"
+    ]
+  },
+  "specializations": {
+    "aiAndML": [
+      "NLP (Natural Language Processing)",
+      "Machine Learning Model Integration"
+    ]
+  },
+  "languages": {
+    "Arabic": "Native",
+    "English": "Upper-Intermediate",
+    "French": "Intermediate"
+  }
+}

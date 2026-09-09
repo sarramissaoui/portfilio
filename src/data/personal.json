@@ -1,0 +1,68 @@
+{
+  "name": "Sarra Missaoui",
+  "title": "Software Engineer — Graduate Studies Applicant",
+  "tagline": "Software Engineer — Graduate Studies Applicant",
+  "subtitle": "Building modern, secure, and scalable digital solutions.",
+  "description": "Software engineering graduate with hands-on experience building full-stack web and mobile applications across internships and personal projects. Skilled in Java/Spring Boot, JavaScript frameworks, and cloud/DevOps tooling, with a growing interest in AI/ML systems and software engineering research.",
+  "profileImage": "/images/malak.png",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "+2"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "+12"
+    }
+  ],
+  "contact": {
+    "email": "missaouisarra18@gmail.com",
+    "phone": "+216 93 964 283",
+    "address": "Sousse, Tunisia",
+    "github": "https://github.com/sarramissaoui",
+    "linkedin": "",
+    "facebook": "",
+    "discord": ""
+  },
+  "features": [
+    {
+      "icon": "🖥️",
+      "title": "Backend Development",
+      "description": "Building robust backend systems, RESTful APIs, secure authentication, and scalable architectures."
+    },
+    {
+      "icon": "🌐",
+      "title": "Full Stack / Web Development",
+      "description": "Creating complete web applications from database to user interface with responsive and user-friendly designs."
+    },
+    {
+      "icon": "📱",
+      "title": "Mobile Development",
+      "description": "Developing cross-platform mobile applications with real-time functionality and seamless web integration."
+    },
+    {
+      "icon": "📊",
+      "title": "Business Intelligence & Analytics",
+      "description": "Designing dashboards, data visualizations, and analytics solutions for monitoring and decision-making."
+    },
+    {
+      "icon": "🔗",
+      "title": "DevOps & Integration",
+      "description": "Implementing DevOps pipelines, CI/CD, containerization, monitoring, and API integration."
+    },
+    {
+      "icon": "⚡",
+      "title": "Power BI & Data Analytics",
+      "description": "Creating business intelligence dashboards, data analysis, and visualization solutions to drive insights."
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["Java", "Python", "PHP", "JavaScript", "TypeScript"],
+    "webDevelopment": ["HTML", "CSS", "React", "Bootstrap", "Node.js", "Express", "Django", "Spring Boot"],
+    "mobileDevelopment": ["Flutter"],
+    "devOpsTools": ["Docker", "Git", "GitHub", "JWT", "Jenkins", "Argo CD", "Kubernetes", "Grafana", "Prometheus"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
+    "architecture": ["Microservices", "WebSocket"],
+    "analytics": ["Power BI"]
+  }
+}

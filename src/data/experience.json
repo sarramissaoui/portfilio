@@ -1,0 +1,77 @@
+{
+  "experiences": [
+    {
+      "company": "ISIS Institute",
+      "position": "Final-Year Intern",
+      "period": "Feb 2025 – May 2025",
+      "location": "Abidjan",
+      "logo": "",
+      "description": "Designed and developed a full-stack web application to digitalize academic management for an educational institution, centralizing student, teacher, course, and grade data.",
+      "responsibilities": [
+        "• Designed and developed a full-stack web application to digitalize academic management for an educational institution, centralizing student, teacher, course, and grade data.",
+        "• Built RESTful APIs with Spring Boot, Spring Security, and JPA/Hibernate; developed a responsive front end with React.js.",
+        "• Automated administrative workflows and delivered role-based interfaces that improved communication and transparency across the institution."
+      ],
+      "technologies": ["Spring Boot", "Spring Security", "JPA/Hibernate", "RESTful APIs", "React.js", "HTML5", "CSS3", "JavaScript (ES6)", "MySQL", "Git", "Maven"]
+    },
+    {
+      "company": "VegaNet",
+      "position": "Summer Intern",
+      "period": "Jul 2024 – Sep 2024",
+      "location": "Sousse, Tunisia",
+      "logo": "",
+      "description": "Designed and implemented a requirements-management module to collect, track, and prioritize client requests.",
+      "responsibilities": [
+        "• Designed and implemented a requirements-management module to collect, track, and prioritize client requests.",
+        "• Developed a contract-management module in Odoo to automate contract creation, tracking, and renewal."
+      ],
+      "technologies": ["Odoo", "Python", "JavaScript"]
+    },
+    {
+      "company": "ISIS Institute",
+      "position": "Summer Intern",
+      "period": "Jul 2023 – Aug 2023",
+      "location": "Sousse, Tunisia — Subject: Student Enrollment & Academic Records Management",
+      "logo": "",
+      "description": "Designed and developed a web module for managing student enrollment, academic records, and grade tracking within the institution's information system.",
+      "responsibilities": [
+        "• Designed and developed a web module for managing student enrollment, academic records, and grade tracking within the institution's information system.",
+        "• Implemented role-based access for administrators and staff to streamline data entry, consultation, and reporting.",
+        "• Contributed to improving the reliability, consistency, and accessibility of academic data across departments."
+      ],
+      "technologies": ["PHP", "Symfony", "MySQL", "HTML5", "CSS3"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "projectmicroservices",
+      "description": "Microservices-based application built to demonstrate modular backend architecture and service interoperability.",
+      "technologies": ["JavaScript", "Microservices", "React"]
+    },
+    {
+      "name": "parkingdevops",
+      "description": "Parking management project focused on DevOps practices, deployment automation, and infrastructure monitoring.",
+      "technologies": ["JavaScript", "DevOps", "CI/CD"]
+    },
+    {
+      "name": "parking-mern",
+      "description": "Full-stack parking management application developed with the MERN stack for booking, tracking, and operational management.",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"]
+    },
+    {
+      "name": "gestion-des-departements",
+      "description": "Department management system designed to streamline administrative operations and organizational data handling.",
+      "technologies": ["PHP", "MySQL", "Web Application"]
+    },
+    {
+      "name": "portfolio",
+      "description": "Personal portfolio website showcasing projects, skills, and professional identity in a clean and responsive format.",
+      "technologies": ["JavaScript", "React", "Portfolio"]
+    },
+    {
+      "name": "nextjsprojet",
+      "description": "Next.js-based project for modern interface development and scalable web application creation.",
+      "technologies": ["Next.js", "JavaScript", "Frontend"]
+    }
+  ]
+}
