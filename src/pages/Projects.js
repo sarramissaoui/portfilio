@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { ExternalLink, Building2, User, X, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
@@ -8,21 +8,24 @@ const Projects = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [projectImages, setProjectImages] = useState({});
 
-  // Function to load images for a specific project
-  const loadProjectImages = async (project) => {
+  // Keep a ref to the latest projectImages to avoid recreating callbacks
+  const projectImagesRef = useRef(projectImages);
+
+  // Function to load images for a specific project (stable reference)
+  const loadProjectImages = useCallback(async (project) => {
     const { imageFolder, images } = project;
-    
-    if (!imageFolder || !images || projectImages[imageFolder]) {
-      return projectImages[imageFolder] || [];
+
+    if (!imageFolder || !images || projectImagesRef.current[imageFolder]) {
+      return projectImagesRef.current[imageFolder] || [];
     }
 
     try {
       const validImages = [];
-      
+
       // Check each image from the JSON to see if it exists
       for (const imageName of images) {
         const imagePath = `/images/projects/${imageFolder}/${imageName}`;
-        
+
         try {
           // Check if image exists by trying to load it
           await new Promise((resolve, reject) => {
@@ -31,7 +34,7 @@ const Projects = () => {
             img.onerror = reject;
             img.src = imagePath;
           });
-          
+
           validImages.push(imagePath);
         } catch (error) {
           // Image doesn't exist, continue to next image
@@ -40,11 +43,15 @@ const Projects = () => {
         }
       }
 
-      // Update state
-      setProjectImages(prev => ({
-        ...prev,
-        [imageFolder]: validImages
-      }));
+      // Update state and ref atomically
+      setProjectImages(prev => {
+        const next = {
+          ...prev,
+          [imageFolder]: validImages
+        };
+        projectImagesRef.current = next;
+        return next;
+      });
 
       console.log(`Found ${validImages.length} images for ${imageFolder}`);
       return validImages;
@@ -52,7 +59,7 @@ const Projects = () => {
       console.log(`Error loading images for ${imageFolder}:`, error);
       return [];
     }
-  };
+  }, []);
 
   const openGallery = async (project, imageIndex = 0) => {
     setSelectedProject(project);
@@ -193,12 +200,16 @@ const Projects = () => {
     return images.length;
   };
 
+  // Keep ref synced with state
+  useEffect(() => {
+    projectImagesRef.current = projectImages;
+  }, [projectImages]);
+
   // Load images for all projects on component mount
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const loadAllImages = async () => {
       const allProjects = [...projectsData.workProjects, ...projectsData.personalProjects];
-      
+
       for (const project of allProjects) {
         if (project.imageFolder && project.images) {
           await loadProjectImages(project);
@@ -207,7 +218,7 @@ const Projects = () => {
     };
 
     loadAllImages();
-  }, []);
+  }, [loadProjectImages]);
 
   return (
     <div className="page-container">
