@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ExternalLink, Building2, User, X, ChevronLeft, ChevronRight, Eye, Globe } from 'lucide-react';
+import { ExternalLink, Building2, User, X, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
 
@@ -185,13 +185,7 @@ const Projects = () => {
     }
   };
 
-  const hasImages = (project) => {
-    if (!project.imageFolder || !project.images) return false;
-    
-    // Check if images are loaded
-    const images = projectImages[project.imageFolder];
-    return images && images.length > 0;
-  };
+  // Helper to count images is available via getImageCount; remove unused hasImages to satisfy lint
 
   const getImageCount = (project) => {
     if (!project.imageFolder || !project.images) return 0;
@@ -200,6 +194,7 @@ const Projects = () => {
   };
 
   // Load images for all projects on component mount
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const loadAllImages = async () => {
       const allProjects = [...projectsData.workProjects, ...projectsData.personalProjects];

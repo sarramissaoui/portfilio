@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Facebook, MessageCircle, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Facebook, MessageCircle, ExternalLink } from 'lucide-react';
 import personalData from '../data/personal.json';
 import skillsData from '../data/skills.json';
 
